@@ -1,0 +1,4 @@
+set iskeyword+=:
+let g:Tex_DefaultTargetFormat = 'pdf'
+let g:Tex_MultipleCompileFormats='pdf,bibtex,pdf'
+
