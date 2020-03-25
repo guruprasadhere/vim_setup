@@ -1,10 +1,38 @@
 
+call plug#begin('~/.vim/plugged')
+Plug 'junegunn/goyo.vim'
+call plug#end()
 
 syntax on
+
+set mouse=a
+
+set number
+
+set spell!
+
+let g:solarized_termcolors=256
+
+colorscheme solarized 
 
 filetype plugin on
 
 set shellslash
+
+set wrap
+
+set lbr
+
+set whichwrap=b,s,<,>,[,]
+
+set tw=80
+
+map <C-t><up> :tabr<cr>
+map <C-t><down> :tabl<cr>
+map <C-t><left> :tabp<cr>
+map <C-t><right> :tabn<cr>
+
+"set tw=90 fo=cqt wm=0
 
 filetype indent on
 
